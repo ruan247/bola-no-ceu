@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bola no Céu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="menu">
+    <h1>Bianca💙</h1>
+    <p>Escolha o emoji do BOOST:</p>
+    <input type="text" id="emojiInput" value="💙" maxlength="2">
+    <button id="startButton">▶ Começar Jogo</button>
+</div>
+
+<div id="hud">
+    <span>Pontuação: <b id="score">0</b></span>
+    <span>Recorde: <b id="highScore">0</b></span>
+    <span id="boostHud">BOOST: —</span>
+</div>
+
+<canvas id="gameCanvas"></canvas>
+
+<div id="gameOver">
+    <h1>Poxa moreco 😒</h1>
+    <p>Pontuação: <b id="finalScore">0</b></p>
+    <button id="restartButton">🔄 Jogar Novamente</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
